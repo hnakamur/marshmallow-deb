@@ -2,30 +2,18 @@ Source: marshmallow
 Section: python
 Priority: optional
 Maintainer: Hiroaki Nakamura <hnakamur@gmail.com>
-Build-Depends: debhelper (>=9),dh-python,python-all (>= 2.6.6-3~),python-setuptools,python3-all,python3-setuptools,
- python-dateutil,python-simplejson,python-pytest,python-tz,
+Build-Depends: debhelper (>=9),dh-python,python3-all,python3-setuptools,
  python3-dateutil,python3-simplejson,python3-pytest,python3-tz
 Standards-Version: 3.9.6
 Homepage: https://github.com/marshmallow-code/marshmallow
-X-Python-Version: >= 2.6
 X-Python3-Version: >= 3.3
-XS-Python-Version: >= 2.7
-XS-Python3-Version: >= 3.3
 #Vcs-Git: git://anonscm.debian.org/collab-maint/marshmallow.git
 #Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/marshmallow.git
 
-Package: python-marshmallow
-Architecture: all
-Depends: ${python:Depends}, ${misc:Depends}
-Suggests: python-marshmallow-doc
-Description: A lightweight library for converting complex
- datatypes to and from native Python datatypes.
- .
- This package installs the library for Python 2.
-
 Package: python3-marshmallow
 Architecture: all
-Depends: ${python3:Depends}, ${misc:Depends}
+Depends: ${python3:Depends}, ${misc:Depends},
+ python3-dateutil,python3-simplejson
 Suggests: python-marshmallow-doc
 Description: A lightweight library for converting complex
  datatypes to and from native Python datatypes.

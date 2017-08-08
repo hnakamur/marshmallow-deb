@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: marshmallow
-Source: <url://example.com>
+Source: https://github.com/marshmallow-code/marshmallow
 
 Files: *
 Copyright: 2013 Steven Loria <sloria1@gmail.com>
