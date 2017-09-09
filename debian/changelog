@@ -1,3 +1,9 @@
+marshmallow (2.13.6-1hnakamur1) xenial; urgency=medium
+
+  * Imported Upstream version 2.13.6
+
+ -- Hiroaki Nakamura <hnakamur@gmail.com>  Sun, 10 Sep 2017 08:52:55 +0900
+
 marshmallow (2.13.5-1hnakamur1) unstable; urgency=medium
 
   * Initial release
